@@ -1,0 +1,47 @@
+{
+    "results": [
+      {
+        "gender": "female",
+        "name": {
+          "title": "Miss",
+          "first": "Jennie",
+          "last": "Nichols"
+        },
+        "location": {
+          "street": {
+            "number": 8929,
+            "name": "Valwood Pkwy"
+          },
+          "city": "Billings",
+          "state": "Michigan",
+          "country": "United States",
+          "postcode": "63104",
+          "coordinates": {
+            "latitude": "-69.8246",
+            "longitude": "134.8719"
+          },
+          "timezone": {
+            "offset": "+9:30",
+            "description": "Adelaide, Darwin"
+          }
+        },
+        "dob": {
+          "date": "1992-03-08T15:13:16.688Z",
+          "age": 30
+        },
+        "phone": "(272) 790-0888",
+        "cell": "(489) 330-2385",
+        
+        "nat": "US"
+      }
+    ],
+    "edu": {
+      "primaria": "Escuela Don Orione",
+      "secundaria": "Escuela Comercial",
+      "terciaria": "UTN"
+    },
+    "exper": {
+      "exper": "2010/15 Glovant - 2015/20 Boogle - 2020/22 Fasevook"
+      
+    }
+  }

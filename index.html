@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <title>index</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/2666/2666421.png">
+        <link rel="stylesheet" href="cvestilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+</head>
+    
+
+    <body>
+
+        <h1>Curriculum Vitae</h1>
+        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="User cualquiera" width="200" height="200" >
+        
+        
+        <h2>Indice</h2> 
+            <ul> 
+                <li><button type="button" onclick="document.getElementById('results').style.display='block'">Datos Personales</button>
+                </li> 
+                <li><button type="button" onclick="document.getElementById('results2').style.display='block'">Direccion</button>
+                </li> 
+                <li><button type="button" onclick="document.getElementById('results3').style.display='block'">Educacion</button>
+                </li>
+                <li><button type="button" onclick="document.getElementById('results4').style.display='block'">Trabajos</button>
+                </li> 
+            </ul>
+            
+            
+            <p id="results" style="display:none"></p>
+            <p id="results2" style="display:none"></p>
+            <p id="results3" style="display:none"></p>
+            <p id="results4" style="display:none"></p>
+        <script src="cvjs.js"></script>
+            
+
+    </body>
+</html>
